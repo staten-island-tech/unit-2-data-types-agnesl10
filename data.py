@@ -34,8 +34,3 @@ z = y[0] #specific location in list above ^^
 print(y)
 print(z)
 
-even_or_odd = int(input("integer"))
-if (even_or_odd) == 0:
-    print("even")
-else:
-    print("odd") 
