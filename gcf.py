@@ -1,11 +1,11 @@
-numX = int(input("number 1: "))
-numY = int(input("number 2: "))
- 
-def gcf(numX,numY):
+x = int(input("number 1: "))
+y = int(input("number 2: "))
+factor = []
+def gcf(x,y):
   global gcf
-  if numX == 0:
-        return numY
-  else:
-        return gcf (numY, numX % numY)
-print("gcf is: ", gcf (numX,numY))
-gcf ()
+  for i in range(2,y):
+      if x%i == 0 and y%i == 0:
+            factor.append
+      return factor
+
+print gcf()
